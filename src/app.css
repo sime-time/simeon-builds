@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-rgb: 15, 23, 42;
+  --foreground-rgb: 255, 255, 255;
+}
+
+body {
+  background: rgb(var(--background-rgb));
+  color: rgb(var(--foreground-rgb));
+}
+
+.glass-container {
+  z-index: 10;
+  position: relative;
+}
+
+.glass-container::before {
+  @apply absolute inset-0 -z-10 rounded-3xl border border-slate-100/20 bg-slate-200/10 backdrop-blur-md;
+  content: "";
+}
