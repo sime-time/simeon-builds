@@ -1,11 +1,10 @@
-import PersonalCard from "~/components/PersonalCard";
+import RootLayout from "~/layouts/RootLayout";
 import PageCard from "~/components/PageCard";
 
 export default function Resume() {
   return (
-    <main class="flex gap-8 p-16">
-      <PersonalCard />
+    <RootLayout>
       <PageCard title="Resume"><p>Experience</p></PageCard>
-    </main>
+    </RootLayout>
   );
 }

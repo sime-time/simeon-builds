@@ -3,7 +3,7 @@ import { useLocation, A } from "@solidjs/router";
 export default function Nav() {
   const location = useLocation();
   const active = (path: string) =>
-    path == location.pathname ? "border-black" : "border-transparent hover:border-black";
+    path == location.pathname ? "border-yellow-300" : "border-transparent hover:border-yellow-300";
 
   return (
     <nav>

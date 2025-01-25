@@ -1,11 +1,10 @@
-import PersonalCard from "~/components/PersonalCard";
+import RootLayout from "~/layouts/RootLayout";
 import PageCard from "~/components/PageCard";
 
 export default function Home() {
   return (
-    <main class="flex gap-8 p-16">
-      <PersonalCard />
+    <RootLayout>
       <PageCard title="About Me"><p>Hewllo</p></PageCard>
-    </main>
+    </RootLayout>
   );
 }
