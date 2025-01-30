@@ -5,13 +5,15 @@ import { IoLocationOutline } from 'solid-icons/io';
 
 export default function PersonalCard() {
   return (
-    <section class="glass-container px-8 py-12 flex flex-col gap-5">
-      <div class="flex items-center justify-center">
-        <img src="/images/headshot.png" width="400" height="400" class="size-40 rounded-3xl border border-slate-100/20" />
-      </div>
-      <div class="flex flex-col gap-3 items-center">
-        <h1 class="text-3xl font-semibold">Simeon Dunn</h1>
-        <p class="bg-slate-500/40 text-gray-300 text-xs text-center p-1 px-3 rounded-lg w-fit">Full Stack Developer</p>
+    <section class="sidebar p-4 md:px-8 md:py-12 flex flex-col gap-5 h-fit">
+      <div class="flex flex-row md:flex-col gap-5 items-center">
+        <div class="flex items-center justify-center">
+          <img src="/images/headshot.png" width="100" height="100" class="size-30 md:size-40 rounded-3xl border border-slate-100/20" />
+        </div>
+        <div class="flex flex-col gap-3 items-start md:items-center">
+          <h1 class="text-3xl font-semibold text-nowrap">Simeon Dunn</h1>
+          <p class="bg-slate-500/40 text-gray-300 text-xs text-center p-1 px-3 rounded-lg w-fit">Full Stack Developer</p>
+        </div>
       </div>
       <div class="flex flex-col gap-4 border-t border-slate-100/20 pt-5">
         <PersonalLink

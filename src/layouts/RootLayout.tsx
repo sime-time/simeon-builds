@@ -3,7 +3,7 @@ import PersonalCard from "~/components/PersonalCard";
 
 export default function RootLayout(props: ParentProps) {
   return (
-    <main class="flex flex-col md:flex-row gap-8 p-6 md:p-16 ">
+    <main class="font-custom flex flex-col md:flex-row gap-8 max-w-7xl py-8 mb-14 px-4 md:px-0 m-auto">
       <PersonalCard />
       {props.children}
     </main>

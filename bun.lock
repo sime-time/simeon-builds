@@ -4,6 +4,7 @@
     "": {
       "name": "example-with-tailwindcss",
       "dependencies": {
+        "@fontsource-variable/work-sans": "^5.1.1",
         "@solidjs/router": "^0.15.0",
         "@solidjs/start": "^1.0.11",
         "solid-icons": "^1.1.0",
@@ -118,6 +119,8 @@
     "@esbuild/win32-ia32": ["@esbuild/win32-ia32@0.20.2", "", { "os": "win32", "cpu": "ia32" }, "sha512-HfLOfn9YWmkSKRQqovpnITazdtquEW8/SoHW7pWpuEeguaZI4QnCRW6b+oZTztdBnZOS2hqJ6im/D5cPzBTTlQ=="],
 
     "@esbuild/win32-x64": ["@esbuild/win32-x64@0.20.2", "", { "os": "win32", "cpu": "x64" }, "sha512-N49X4lJX27+l9jbLKSqZ6bKNjzQvHaT8IIFUy+YIqmXQdjYCToGWwOItDrfby14c78aDd5NHQl29xingXfCdLQ=="],
+
+    "@fontsource-variable/work-sans": ["@fontsource-variable/work-sans@5.1.1", "", {}, "sha512-9p3A0ek+Lcr8Xal7sWlNHY5rTyG3FJIwdZ+Rm59dxULbbrZEbtojiQzcamTC/s76cttmGiT+LpNpGM4VGqFrhg=="],
 
     "@ioredis/commands": ["@ioredis/commands@1.2.0", "", {}, "sha512-Sx1pU8EM64o2BrqNpEO1CNLtKQwyhuXuqyfH7oGKCk+1a33d2r5saW8zNwm3j6BTExtjrv2BxTgzzkMwts6vGg=="],
 
