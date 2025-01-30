@@ -40,3 +40,13 @@ body {
   @apply absolute inset-0 -z-10 rounded-3xl border border-slate-100/20 bg-slate-200/10 backdrop-blur-md;
   content: "";
 }
+
+.link-body {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s ease-in-out;
+}
+
+.link-body.expand {
+  height: calc-size(auto);
+}
